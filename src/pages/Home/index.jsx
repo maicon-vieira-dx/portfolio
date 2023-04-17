@@ -1,16 +1,20 @@
 import { useState} from 'react';
+
+import profile from 'mocks/profile';
+
 import Header from 'components/Header';
 import Title from 'components/Title';
 import TextFloating from 'components/TextFloating';
 import Pagination from 'components/Pagination';
-import { Box} from '@mui/material';
 import Footer from 'components/Footer';
-import profile from 'mocks/profile';
+
+import { Box} from '@mui/material';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel } from 'swiper';
 
 import "swiper/scss"
+
 import "swiper/scss/pagination"
 import style from "./Home.module.css"
 
