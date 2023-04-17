@@ -71,7 +71,7 @@ const profile = {
             Justify: "flex-start",
             Direction: "column",
             Width: "70",
-            Paragraph: "Como <b>autônomo</b>, busco constantemente melhorar minhas habilidades, sou <b>focado</b> e <b>comunicativo</b>. Me esforço para otimizar meu código, visando melhorias na <b>performance</b> e <b>eficiência</b>. Tenho visão macro dos objetivos e projetos da equipe, contribuindo estrategicamente para a produtividade. Acredito em um <b>mindset de crescimento</b>, evoluindo constantemente a cada desafio e <i>feedback</i>. Para mais informações, segue abaixo o botão para download do meu currículo.",
+            Paragraph: "Como <b>autônomo</b>, busco constantemente melhorar minhas habilidades, sou <b>focado</b> e <b>comunicativo</b>. Me esforço para otimizar meu código, visando melhorias na  <b>eficiência</b>. Tenho visão macro dos objetivos e projetos da equipe, contribuindo estrategicamente para a produtividade. Acredito em um <b>mindset de crescimento</b>, evoluindo constantemente a cada desafio e <i>feedback</i>. Para mais informações, segue abaixo o botão para download do meu currículo.",
             Button: "CURRÍCULO",
             Paste: './curriculo_maicon_vieira.pdf',
         },

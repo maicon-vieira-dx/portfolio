@@ -38,7 +38,10 @@ export default function Carousel({List}) {
         {
             List.map((icon, index) => (
                 <SwiperSlide key={index} className={`shadow-md shadow-black hover:shadow-lg hover:shadow-black ${style.swiperSlide}`}>
+                  <div className="flex flex-col justify-center items-center">
+                    <h3 className="uppercase text-xl font-bold pb-5">{icon.toString().replace("/src/assets/", "").split(".png")}</h3>
                     <img src={icon} className="w-2/6 "/>
+                  </div>
                 </SwiperSlide>
             ))
         }

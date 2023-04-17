@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef} from 'react';
+import { useState} from 'react';
 import Header from 'components/Header';
 import Title from 'components/Title';
 import TextFloating from 'components/TextFloating';
