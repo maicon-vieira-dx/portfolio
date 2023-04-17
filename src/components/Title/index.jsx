@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from 'mocks/profile'
-import style from './Title.module.scss'
+import style from './Title.module.css'
 import { useSpring, animated } from 'react-spring'
 
 export default function Title() {

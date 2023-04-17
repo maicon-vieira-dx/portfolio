@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react'
-
+import React from 'react'
 
 export default function TextFloating({Title, Justify, Width, Direction, Type, Values}) {
   return (

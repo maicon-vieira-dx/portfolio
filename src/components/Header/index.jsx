@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
-import {AppBar, Box, Toolbar, Button, IconButton, Container, MenuItem, Typography, MenuList, Drawer, ListItem, ListItemText, ListItemIcon, List } from '@mui/material';
+import {AppBar, Box, Toolbar, Button, IconButton, Drawer, ListItem, ListItemText, ListItemIcon } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { animated, useSpring } from 'react-spring';
 import { Link } from 'react-router-dom';
-import { ArrowBack, Construction, GitHub, Home, Menu, Person } from '@mui/icons-material';
+import { ArrowBack, Construction, Home, Menu, Person } from '@mui/icons-material';
 import NavBar from 'components/NavBar';
-import logo from 'assets/logo.png'
 
 const navList = [
   {
@@ -39,7 +38,7 @@ export default function Header() {
               </Box>
               <Box >
                 <Link
-                to="https://github.com/Maicon900">
+                to="https://github.com/maicon-vieira-dx">
                   <IconButton>
                       <GitHubIcon style={{color: '#FFFFFF'}} />
                   </IconButton>
@@ -59,7 +58,7 @@ export default function Header() {
                 <Link to='/'>
                   <ListItem>
                     <ListItemIcon style={{color: '#FFFFFF'}}><Home /></ListItemIcon>
-                    <ListItemText style={{color: '#FFFFFF'}}><b>Home</b></ListItemText>
+                    <ListItemText style={{color: '#FFFFFF'}}><b>INÍCIO</b></ListItemText>
                   </ListItem>
                 </Link>
                 {
@@ -72,7 +71,7 @@ export default function Header() {
                     </Link>
                   ))
                 }
-                <Link to='https://github.com/Maicon900'>
+                <Link to='https://github.com/maicon-vieira-dx'>
                   <ListItem>
                     <ListItemIcon style={{color: '#FFFFFF'}}><GitHubIcon /></ListItemIcon>
                     <ListItemText style={{color: '#FFFFFF'}}><b>GITHUB</b></ListItemText>

@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import style from './Carousel.module.scss'
+import style from './Carousel.module.css'
 import { IconButton } from "@mui/material";
 import { NavigateBefore, NavigateNext } from "@mui/icons-material";
 
@@ -36,8 +36,8 @@ export default function Carousel({List}) {
         
       >
         {
-            List.map((icon) => (
-                <SwiperSlide key={icon} className={`shadow-md shadow-black hover:shadow-lg hover:shadow-black ${style.swiperSlide}`}>
+            List.map((icon, index) => (
+                <SwiperSlide key={index} className={`shadow-md shadow-black hover:shadow-lg hover:shadow-black ${style.swiperSlide}`}>
                     <img src={icon} className="w-2/6 "/>
                 </SwiperSlide>
             ))

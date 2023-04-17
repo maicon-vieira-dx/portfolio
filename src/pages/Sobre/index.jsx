@@ -10,11 +10,12 @@ import { Mousewheel } from 'swiper';
 
 import "swiper/scss"
 import "swiper/scss/pagination"
-import style from "./Sobre.module.scss"
+import style from "./Sobre.module.css"
 import TableComponent from 'components/TableComponent';
 import CardImage from 'components/Card/CardImage';
 import CardTextRight from 'components/Card/CardTextRight';
 import { useSpring, animated } from 'react-spring';
+import InlineTable from 'components/InlineTable';
 
 
 export default function Home() {
@@ -49,10 +50,10 @@ export default function Home() {
         </SwiperSlide>
         <SwiperSlide className={style.swiperSlide}>
           <Container>
-            <TableComponent title="PROJETOS CRIADOS PARA AS EMPRESAS:" column={[2,3,4]}>
+            <TableComponent title="PROJETOS CRIADOS PARA AS EMPRESAS:">
               {
                 profile.About.Companies.map((company, index) => (
-                  <CardImage key={index} image={company} />
+                    <CardImage key={index} image={company} />
                 ))
               }
             </TableComponent>
@@ -62,13 +63,13 @@ export default function Home() {
           <Container>
             <div className='w-full mt-20'>
             <div className='flex flex-col lg:flex-row justify-between items-center'>
-              <TableComponent title="SOFTWARES UTILIZADOS:" column={[1,1]}>
+              <InlineTable title="SOFTWARES UTILIZADOS:">
                 {
                   profile.About.Softwares.map((software, index) => (
                     <CardTextRight key={index} {...software} />
                   ))
                 }
-              </TableComponent>
+              </InlineTable>
             </div>
                   </div>
           </Container>

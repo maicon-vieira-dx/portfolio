@@ -1,7 +1,6 @@
 import { ArrowForward } from '@mui/icons-material'
-import { IconButton } from '@mui/material'
 import React from 'react'
-import style from './ButtonVoid.module.scss'
+import style from './ButtonVoid.module.css'
 
 export default function ButtonVoid({text, paste}) {
   return (

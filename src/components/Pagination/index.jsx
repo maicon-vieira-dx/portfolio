@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Pagination.module.scss'
+import style from './Pagination.module.css'
 
 export default function Pagination({slide, slideLength}) {
 

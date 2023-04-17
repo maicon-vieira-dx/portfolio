@@ -20,7 +20,7 @@ export default function Footer() {
           <h4 className=' text-white text-xl lg:text-2xl font-bold pb-5'>{profile.Footer.Titles[1]}</h4>
           <ul>
             <li>
-              <Link to="https://github.com/Maicon900">
+              <Link to="https://github.com/maicon-vieira-dx">
                 <IconButton style={{padding: '0'}}>
                   <GitHub style={{color: '#FFFFFF', marginRight: '10px'}}/>
                   <p className='text-white'>

@@ -12,7 +12,7 @@ import { Mousewheel } from 'swiper';
 
 import "swiper/scss"
 import "swiper/scss/pagination"
-import style from "./Home.module.scss"
+import style from "./Home.module.css"
 
 
 export default function Home() {

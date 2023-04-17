@@ -3,7 +3,7 @@ import Header from 'components/Header'
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel } from 'swiper';
-import style from './Projetos.module.scss'
+import style from './Projetos.module.css'
 import Pagination from 'components/Pagination';
 import profile from 'mocks/profile';
 import TableComponent from 'components/TableComponent';
@@ -20,7 +20,7 @@ export default function Projetos() {
 
     const springs = useSpring({
         from: {x: -200, opacity: 0},
-        to: {x: 10, opacity: 1}
+        to: {x: 0, opacity: 1}
     })
 
   return (

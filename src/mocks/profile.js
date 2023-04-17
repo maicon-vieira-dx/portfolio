@@ -22,42 +22,42 @@ import fiserv from 'assets/fiserv.jpg'
 import danone from 'assets/danone.png'
 import bayer from 'assets/bayer.png'
 import vitamina from 'assets/vitamina.png'
-import lec from 'assets/lec.png'
+import ifood from 'assets/ifood.png'
 
 import alura from 'assets/alura-logo.png'
 import fiap from 'assets/fiap.png'
 import udemy from 'assets/udemy.png'
+
+import profileImage from 'assets/profile.jpg'
 
 import aem from 'assets/aem.png'
 import clickup from 'assets/clickup.png'
 import filezilla from 'assets/filezilla.png'
 
 const logos = [javascript, html, vue, atom, laravel, php, sql, sass, next, bootstrap, nuxt, tailwind]
-const companies = [roche, jj, caixa, fiserv, danone, bayer, vitamina, lec]
+const companies = [roche, jj, caixa, fiserv, danone, bayer, vitamina, ifood]
 
 const profile = {
     Title: "Maicon Vieira da Costa",
     Subtitle: "Front-end Developer",
-    Image: "/src/assets/profile.jpg",
+    Image: profileImage,
     About: {
         Paragraph: "Sou uma pessoa bastante comunicativa e extrovertida, que se adapta facilmente a diferentes ambientes e equipes. Prezo sempre pela boa convivência, sabendo separar o pessoal do profissional. Dedico-me bastante aos estudos e aprendizado, buscando constantemente aprender algo novo e aprimorar minhas habilidades, especialmente quando sou desafiado e instruído. Possuo grande facilidade na absorção de informações importantes para tomadas de decisão e busco sempre inovar e agregar valor em tudo o que participo. Como disse <b>Blaise Pascal</b>: “<i>Ninguém é tão sábio que não tenha algo para aprender, e nem tão tolo que não tenha algo para ensinar</i>”.",
-
-        
         Companies: companies,
         Softwares: [
             {
                 Title: "Adobe Experience Manager",
-                Describe: "Plataforma para desenvolvimentos de sites e personalização, otimização e análise de experiências digitais.",
+                Describe: "Plataforma para desenvolvimentos de sites e personalização.",
                 Image: aem
             },
             {
                 Title: "ClickUp",
-                Describe: "Plataforma de gerenciamento de projetos, tarefas, fluxo de trabalho, agendamento, rastreamento de tempo, colaboração em tempo real, entre outros.",
+                Describe: "Plataforma de gerenciamento de projetos, tarefas, fluxo de trabalho.",
                 Image: clickup
             },
             {
                 Title: "Filezilla",
-                Describe: "Utilizado para fazer upload e download de arquivos entre computadores remotos e servidores.",
+                Describe: "Utilizado para fazer upload em servidores através dos protocolos .",
                 Image: filezilla
             }
         ]
@@ -73,7 +73,7 @@ const profile = {
             Width: "70",
             Paragraph: "Como <b>autônomo</b>, busco constantemente melhorar minhas habilidades, sou <b>focado</b> e <b>comunicativo</b>. Me esforço para otimizar meu código, visando melhorias na <b>performance</b> e <b>eficiência</b>. Tenho visão macro dos objetivos e projetos da equipe, contribuindo estrategicamente para a produtividade. Acredito em um <b>mindset de crescimento</b>, evoluindo constantemente a cada desafio e <i>feedback</i>. Para mais informações, segue abaixo o botão para download do meu currículo.",
             Button: "CURRÍCULO",
-            Paste: '/curriculo_maicon_vieira.pdf',
+            Paste: './curriculo_maicon_vieira.pdf',
         },
         {
             Id: 2,
@@ -83,7 +83,7 @@ const profile = {
             Direction: "column",
             Width: "75",
             Button: "CERTIFICADOS",
-            Paste: '/Certificados.zip',
+            Paste: './Certificados.zip',
             Items: [
                 {
                     Date: "Julho 2015",
@@ -143,42 +143,42 @@ const profile = {
             {
                 Image: alura,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/2700-spring-boot-aula_5"
+                Link: "https://github.com/maicon-vieira-dx/2700-spring-boot-aula_5"
             },
             {
                 Image: fiap,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/app_health"
+                Link: "https://github.com/maicon-vieira-dx/app_health"
             },
             {
                 Image: fiap,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/Bayer"
+                Link: "https://github.com/maicon-vieira-dx/Bayer"
             },
             {
                 Image: udemy,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/Fight"
+                Link: "https://github.com/maicon-vieira-dx/Fight"
             },
             {
                 Image: alura,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/react-context"
+                Link: "https://github.com/maicon-vieira-dx/react-context"
             },
             {
                 Image: alura,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/react-native-ficando-online"
+                Link: "https://github.com/maicon-vieira-dx/react-native-ficando-online"
             },
             {
                 Image: fiap,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/IdWallers"
+                Link: "https://github.com/maicon-vieira-dx/IdWallers"
             },
             {
                 Image: fiap,
                 Name: "Alura",
-                Link: "https://github.com/Maicon900/ola-mundo-aula-4"
+                Link: "https://github.com/maicon-vieira-dx/ola-mundo-aula-4"
             },
         ]
     },
