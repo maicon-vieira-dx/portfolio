@@ -34,7 +34,6 @@ import aem from 'assets/aem.png'
 import clickup from 'assets/clickup.png'
 import filezilla from 'assets/filezilla.png'
 
-const logos = [javascript, html, vue, atom, laravel, php, sql, sass, next, bootstrap, nuxt, tailwind]
 const companies = [roche, jj, caixa, fiserv, danone, bayer, vitamina, ifood]
 
 const profile = {
@@ -134,7 +133,56 @@ const profile = {
             Justify: "center",
             Direction: "column",
             Width: "90",
-            List: logos
+            List: [
+                {
+                    Name: "javascript",
+                    Icon: javascript,
+                },
+                {
+                    Name: "html",
+                    Icon: html,
+                },
+                {
+                    Name: "vue",
+                    Icon: vue,
+                },
+                {
+                    Name: "atom",
+                    Icon: atom,
+                }, 
+                {
+                    Name: "laravel",
+                    Icon: laravel,
+                },
+                {
+                    Name: "php",
+                    Icon: php,
+                },
+                {
+                    Name: "sql",
+                    Icon: sql,
+                },
+                {
+                    Name: "sass",
+                    Icon: sass,
+                },
+                {
+                    Name: "next",
+                    Icon: next,
+                },
+                {
+                    Name: "bootstrap",
+                    Icon: bootstrap,
+                },
+                {
+                    Name: "nuxt",
+                    Icon: nuxt,
+                },
+                {
+                    Name: "tailwind",
+                    Icon: tailwind
+                }
+        ]
         }
     ],
     Projects: {
