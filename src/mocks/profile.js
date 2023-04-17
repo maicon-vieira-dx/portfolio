@@ -123,7 +123,7 @@ const profile = {
                 {
                     Date: "OUTUBRO 2021 - MARÇO 2023",
                     Locale: "Amplavisão",
-                    Description: "Estágio de Programação - Durante o período na empresa de desenvolvimento e tecnologia, desempenhei diversas funções solo e em equipe, comO diversas funções: UX, UI, <i>Front-end</i> ou <i>Full-stack</i>."
+                    Description: "Estágio de Programação - Durante o período na empresa de desenvolvimento e tecnologia, desempenhei diversas funções solo e em equipe, como diversas funções: UX, UI, <i>Front-end</i> ou <i>Full-stack</i>."
                 }
             ]
         },
