@@ -147,7 +147,7 @@ const profile = {
                     Icon: vue,
                 },
                 {
-                    Name: "atom",
+                    Name: "react",
                     Icon: atom,
                 }, 
                 {
