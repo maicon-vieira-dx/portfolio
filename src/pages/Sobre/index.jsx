@@ -3,7 +3,7 @@ import Header from 'components/Header';
 import Pagination from 'components/Pagination';
 import { Box, Container} from '@mui/material';
 import Footer from 'components/Footer';
-import profile from 'mocks/profile';
+import profile from 'i18n/profile';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel } from 'swiper';

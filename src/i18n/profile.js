@@ -1,5 +1,5 @@
 import javascript from 'assets/javascript.png'
-import html from 'assets/html.png'
+import angular from 'assets/angular.png'
 import vue from 'assets/vue.png'
 import atom from 'assets/atom.png'
 import laravel from 'assets/laravel.png'
@@ -97,7 +97,7 @@ const profile = {
                 {
                     Date: "Outubro 2022",
                     Locale: "Plataformas de Cursos (Alura, Udemy, Fiap)",
-                    Description: "Vue, React, Laravel, DevOps - Melhorar <i>hards/soft skills</i>."
+                    Description: "Vue, React, Laravel, DevOps, Angular 2+ - Melhorar <i>hards/soft skills</i>."
                 },
                 {
                     Date: "Junho 2023",
@@ -139,8 +139,8 @@ const profile = {
                     Icon: javascript,
                 },
                 {
-                    Name: "html",
-                    Icon: html,
+                    Name: "angular",
+                    Icon: angular,
                 },
                 {
                     Name: "vue",

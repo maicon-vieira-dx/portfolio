@@ -1,5 +1,5 @@
 import ButtonVoid from 'components/ButtonVoid'
-import profile from 'mocks/profile'
+import profile from 'i18n/profile'
 import React from 'react'
 
 export default function Timeline({Items}) {

@@ -1,6 +1,6 @@
 import { useState} from 'react';
 
-import profile from 'mocks/profile';
+import profile from 'i18n/profile';
 
 import Header from 'components/Header';
 import Title from 'components/Title';

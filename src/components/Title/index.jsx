@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from 'mocks/profile'
+import profile from 'i18n/profile'
 import style from './Title.module.css'
 import { useSpring, animated } from 'react-spring'
 

@@ -1,7 +1,7 @@
 import { Copyright, GitHub, LinkedIn } from '@mui/icons-material'
 import { Container, IconButton } from '@mui/material'
 import React from 'react'
-import profile from 'mocks/profile'
+import profile from 'i18n/profile'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {

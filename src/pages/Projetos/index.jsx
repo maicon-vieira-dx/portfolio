@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel } from 'swiper';
 import style from './Projetos.module.css'
 import Pagination from 'components/Pagination';
-import profile from 'mocks/profile';
+import profile from 'i18n/profile';
 import TableComponent from 'components/TableComponent';
 import CardImage from 'components/Card/CardImage';
 import { Link } from 'react-router-dom';

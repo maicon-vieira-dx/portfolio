@@ -8,7 +8,7 @@ export default {
     colors: {
       'white': '#FFFFFF',
       'brown': '#7C4747',
-      'black': '#000'
+      'black': '#000',
     }
   },
   plugins: [],
