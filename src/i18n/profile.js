@@ -117,12 +117,12 @@ const profile = {
                 {
                     Date: "AGOSTO 2020 - JULHO 2021",
                     Locale: "Ambev Jundiaí",
-                    Description: "Jovem Aprendiz - Trabalhei na Refrigeranteira Ambev, administrando setores como Produção, Contabilidade, Logística e entre outros."
+                    Description: "Jovem Aprendiz - Atuava em funções administrando setores como produção cuidando de planilhas e abastecimento de linhas, contabilidade organizando setor de compras, logística revisando produtos e entre outros."
                 },
                 {
                     Date: "OUTUBRO 2021 - MARÇO 2023",
                     Locale: "Amplavisão",
-                    Description: "Estágio de Programação - Durante o período na empresa de desenvolvimento e tecnologia, desempenhei diversas funções solo e em equipe, como diversas funções: UX, UI, <i>Front-end</i> ou <i>Full-stack</i>."
+                    Description: "Estágio de Programação - Durante minha atuação desempenhei diversas funções solo e em equipe, como construção de páginas e aplicações API RESTful, atualizações no banco de dados, telas dinâmicas, versionamento GIT e testes automatizados."
                 }
             ]
         },
